@@ -16,6 +16,7 @@ model User {
   updatedAt DateTime   @updatedAt
   email     String     @unique
   hash      String
+  hashRt  String?
   firstName String?
   lastName  String?
   bookmarks Bookmark[]

@@ -10,8 +10,8 @@ services:
       MYSQL_DATABASE: nest
       MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
-    networks:
-      - freecodecamp
+    
+    
   test-db:
     container_name: test-db
     image: mariadb:10.5
@@ -22,7 +22,3 @@ services:
       MYSQL_DATABASE: nest
       MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
-    networks:
-      - freecodecamp
-networks:
-  freecodecamp:

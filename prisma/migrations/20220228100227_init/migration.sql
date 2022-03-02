@@ -5,6 +5,7 @@ CREATE TABLE `users` (
     `updatedAt` DATETIME(3) NOT NULL,
     `email` VARCHAR(191) NOT NULL,
     `hash` VARCHAR(191) NOT NULL,
+    `hashRt` VARCHAR(191) NULL,
     `firstName` VARCHAR(191) NULL,
     `lastName` VARCHAR(191) NULL,
 
